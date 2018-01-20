@@ -1,0 +1,17 @@
+{description, "Rebar3 My Application"}.
+{variables, [
+    {name, "myrcore", "Name of the application"},
+    {desc, "A My Application", "Short description of the app"}
+]}.
+
+{template, "rebar3_my.app.src.tpl", "{{name}}/apps/{{name}}/src/{{name}}.app.src"}.
+{template, "rebar3_my_app.erl.tpl", "{{name}}/apps/{{name}}/src/{{name}}_app.erl"}.
+{template, "rebar3_my_sup.erl.tpl", "{{name}}/apps/{{name}}/src/{{name}}_sup.erl"}.
+{template, "rebar3_my_gen_server.erl.tpl", "{{name}}/apps/{{name}}/src/{{name}}_gen_server.erl"}.
+{template, "rebar3_my_gen_statem.erl.tpl", "{{name}}/apps/{{name}}/src/{{name}}_gen_statem.erl"}.
+{template, "rebar3_my_rebar.config.tpl", "{{name}}/rebar.config"}.
+{template, "rebar3_my_README.rst.tpl", "{{name}}/README.rst"}.
+
+{template, "rebar3_my_sys.config.tpl", "{{name}}/config/sys.config"}.
+{template, "rebar3_my_vm.args.tpl", "{{name}}/config/vm.args"}.
+
