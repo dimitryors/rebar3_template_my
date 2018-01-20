@@ -18,7 +18,7 @@ Use
 
 :: 
 
-    rebar3 new my name=some_app
+    rebar3 new rebar3_my name=some_app
     cd some_app
     rebar3 release
     rebar3 shell
